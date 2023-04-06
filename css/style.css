@@ -7,6 +7,10 @@
     --main-transition: .5s;
 }
 
+body{
+    height: 1000px;
+}
+
 a{
     text-decoration: none;
     text-transform: uppercase;
@@ -22,7 +26,7 @@ header{
     position: fixed;
     z-index: 1000;
     padding: 1.5rem;
-    background-color: var(--main-color);
+    
  }
 
 header .header-content{
@@ -162,6 +166,39 @@ header .header-content .nav li a{
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------ */
+/* btn to up */
+.btn-up{
+    background-color: var(--main-color);
+    color: var(--wh-color);
+    border: none;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: none;
+}
 
 
 
