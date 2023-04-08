@@ -1,7 +1,7 @@
 /* global */
 :root{
     --main-color: #0C5ADB;
-    --second-color: #6b72ec;
+    --second-color: #1e73be;
     --paragraph-color: #031d2a;
     --wh-color: #fff;
     --main-transition: .5s;
@@ -23,7 +23,7 @@ img{
 }
 .section-heading .section-heading-title{
     margin-bottom: 1.5rem;
-    color: var(--main-color);
+    color: var(--second-color);
     font-size: 4rem;
 }
 
@@ -217,8 +217,37 @@ header .header-content .nav li a{
      line-height: 1.5;
      font-size: 1.6rem;
 }
+/* ----------------------------------------------------------------------------------- */
+/* portfolio */
+.services .shuffle{
+    display: flex;
+    justify-content: center;
+}
 
+.services .shuffle li {
+    padding: .5rem;
+    font-size: 1.6rem;
+    font-weight: normal;
+    transition: var(--main-transition);
+    cursor: pointer;
+}
+@media(max-width: 767px){
+    .services .shuffle li {
+        font-size: 1rem;
+    }
+}
 
+.services .shuffle li.active, .services .shuffle li:hover{
+    color: var(--main-color);
+}
+
+@media(min-width: 768px){
+    .services-content{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+        grid-gap: 2rem;
+    }
+}
 
 
 
