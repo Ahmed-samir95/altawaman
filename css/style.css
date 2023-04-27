@@ -257,9 +257,7 @@ header .header-content .nav li a{
     transition: var(--main-transition);
 }
 
-.services-content .services-item:hover{
-    transform: scale(1.1);
-}
+
 
 
 
