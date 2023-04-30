@@ -26,6 +26,11 @@ img{
     font-size: 4rem;
 }
 
+.section-heading .section-heading-desc{
+    color: var(--paragraph-color);
+    font-size: 1.8rem;
+}
+
 /*media for section-heading*/
 @media (max-width: 767px){
     .section-heading .section-heading-desc{
@@ -256,8 +261,12 @@ header .header-content .nav li a{
     margin-bottom: 1.5rem;
     transition: var(--main-transition);
 }
-
-
+/* ------------------------------------------------------------------------------------- */
+/* contact */
+.contact .map iframe{
+    width: 100%;
+    
+ }
 
 
 
