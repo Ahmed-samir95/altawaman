@@ -4,6 +4,7 @@
     --second-color: #1e73be;
     --paragraph-color: #031d2a;
     --wh-color: #fff;
+    --gr-color: #bbb3b3;
     --main-transition: .5s;
 }
 
@@ -81,35 +82,14 @@ nav .navbar-nav .nav-link.active{
 }
 
 .home-content{
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 60%;
-    text-align: center;
-}
-
-.home-content .home-title{
-    color: var(--wh-color);
-    font-size: 3rem;
-    font-weight: normal;
-}
-@media (max-width: 767px){
-    .home-content .home-title{
-        font-size: 2rem;
-    }
 }
 
 .home-content .home-desc{
-    font-size: 1.7rem;
-    font-weight: normal;
-    padding: 1rem 0;
-    color: var(--wh-color);
-}
-@media (max-width: 767px){
-    .home-content .home-desc{
-        font-size: 1rem;
-    }
+  color: var(--gr-color);
 }
 /* ------------------------------------------------------------------------------------- */
 .about{
