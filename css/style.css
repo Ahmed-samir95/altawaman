@@ -94,30 +94,8 @@ nav .navbar-nav .nav-link.active{
 /* ------------------------------------------------------------------------------------- */
 .about{
     margin-top: 7rem;
-}
-
-
- @media (min-width: 768px){
-    .about-content{
-       display: grid;
-       grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
-       grid-gap: 3rem;
-       align-items: center;
-    }
-} 
-@media (max-width: 767px){
-    .about-content{
-       text-align: center;
-    }
 } 
 
-.about .about-content .about-item img{
-    margin-top: 1rem;
-}
-
-.about .about-content .about-item .about-title{
-    font-size: 2rem;
-}
 
 .about .about-content .about-item .about-desc{
      line-height: 1.5;
