@@ -103,22 +103,12 @@ nav .navbar-nav .nav-link.active{
 }
 /* ----------------------------------------------------------------------------------- */
 /* portfolio */
-.services .shuffle{
-    display: flex;
-    justify-content: center;
-}
-
 .services .shuffle li {
-    padding: .5rem;
-    font-size: 1.6rem;
-    font-weight: normal;
+    padding: 5px;
+    font-size: 1rem;
     transition: var(--main-transition);
+    font-weight: bold;
     cursor: pointer;
-}
-@media(max-width: 767px){
-    .services .shuffle li {
-        font-size: 1rem;
-    }
 }
 
 .services .shuffle li.active, .services .shuffle li:hover{
