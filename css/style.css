@@ -102,7 +102,7 @@ nav .navbar-nav .nav-link.active{
      font-size: 1.6rem;
 }
 /* ----------------------------------------------------------------------------------- */
-/* portfolio */
+/* services */
 .services .shuffle li {
     padding: 5px;
     font-size: 1rem;
@@ -115,12 +115,8 @@ nav .navbar-nav .nav-link.active{
     color: var(--main-color);
 }
 
-@media(min-width: 768px){
-    .services-content{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-        grid-gap: 2rem;
-    }
+.services .services-content{
+  margin-top: 1rem;
 }
 
 .services-content .services-item{
