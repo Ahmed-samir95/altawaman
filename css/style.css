@@ -123,11 +123,6 @@ nav .navbar-nav .nav-link.active{
     margin-bottom: 1.5rem;
     transition: var(--main-transition);
 }
-/* ------------------------------------------------------------------------------------- */
-/* contact */
-.contact .map iframe{
-    width: 100%;  
-}
 /* -------------------------------------------------------------------------------------- */
 footer{
     background-color: var(--main-color);
